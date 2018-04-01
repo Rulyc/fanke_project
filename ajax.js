@@ -37,6 +37,3 @@ function ajax({
 			xhr.send(null);
 	});
 }
-//ajax("get","header.html").then(function(res){
-	//使用res
-//})
