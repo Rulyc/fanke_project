@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>凡客---衣服详情页</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/3_productlist.css">
+</head>
+<body>
+<!--加载头部-->
+    <div id="header"></div>
+    <div id="main">
+        <!--1.小的导航条-->
+        <div class="small_nav">
+            <a href="index.html">首页</a> <span> &gt; </span>
+            <a href="" id="b">男装</a> <span> &gt; </span>
+            <a href="">羽绒服</a> <span> &gt; </span>
+            <a href="">短款羽绒服</a> <span> &gt; </span>
+           <span>凡凡客羽绒服 智能蓝牙温控 加厚鹅绒发热服 男款</span>
+        </div>
+        <!--2.标题，楼层导航条-->
+        <div class="title_nav clearfix">
+            <!--2.1标题-->
+                <h3 class="lf">凡客羽绒服 智能温控 鹅绒增强2.0版 男款 酒红色</h3>
+            <!--2.2小红字-->
+                <strong class="lf">充值购买更优惠</strong>
+            <!--楼层导航条-->
+                <ul class="lf">
+                    <li><a href="#question">提问</a></li>
+                    <li><a href="#speak">评论</a><span>|</span></li>
+                    <li><a href="#clean">洗涤保养</a><span>|</span></li>
+                    <li><a href="#detial">设计细节</a><span>|</span></li>
+                    <li><a href="#technical">版型工艺</a><span>|</span></li>
+                    <li><a href="#miter">产品尺码</a><span>|</span></li>
+                </ul>
+        </div>
+        <!--3.选择衣服-->
+        <div class="search clearfix">
+            <!--3.1左侧选择-->
+            <div class="left_nav lf">
+                <div class="upper show"></div>
+                <ul>
+                </ul>
+                <div class="down show"></div>
+            </div>
+            <!--3.2中图-->
+            <div class="mid_img lf">
+                <img src="" alt="" id="img">
+                <div class="op"></div>
+                <div class="suMask"></div>
+            </div>
+            <!--大图--放大效果-->
+            <div class="big-img">
+                <!--<img src="" alt="">-->
+            </div>
+            <!--3.3规格-->
+            <div class="right_nav">
+                <!--3.3.1价格-->
+                <div class="col-1">
+                    <!--<p>特惠价：￥<span>898.00</span> <a href="">充100返100，点击充值</a></p>-->
+                </div>
+                <!--3.3.2颜色选择-->
+                <div class="col-2">
+                    <p>颜色：</p>
+                    <ul>
+                        <li>
+                            <a href="3_productlist.html?pic_id=1"><img src="img/product/saml2.jpg" alt=""><span class="color_sel">红色</span></a>
+                        </li>
+                        <li><a href="3_productlist.html?pic_id=2"><img src="img/product/small3.jpg" alt=""><span class="color_sel">蓝色</span></a></li>
+                        <li><a href="3_productlist.html?pic_id=3"><img src="img/product/sma1.jpg" alt=""><span class="color_sel">黑色</span></a></li>
+                    </ul>
+                </div>
+                <!--3.3.3尺码-->
+                <div class="col-3">
+                    <ul>
+
+                    </ul>
+                </div>
+                <!--3.3.4数量选择-->
+                <div class="col-4">
+                    <p>数量：</p>
+                    <select name="" id="">
+                        <option value="1" selected>1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <!--3.3.5已选-->
+                <div class="col-5">
+                    <p>已选：</p>
+                    <span>,<strong>现在有货</strong></span>
+                </div>
+                <!--3.3.6立即购买或加入购物车-->
+                <div class="col-6">
+                    <a href="">立即购买</a>
+                    <a href="" class="joinCart"></a>
+                </div>
+                <!--3.3.6立即购买或加入购物车-->
+                <div class="col-7">
+                        <h4>优惠提示</h4>
+                        <ul>
+                            <li>买三免一</li>
+                            <li>全场购物满199免运费</li>
+                        </ul>
+                </div>
+            </div>
+
+        </div>
+        <!--4.产品标尺-->
+        <div class="miter" id="miter"></div>
+        <!--5.版型工艺-->
+        <div class="technical" id="technical"></div>
+        <!--6.设计细节-->
+        <div class="detial" id="detial"></div>
+        <!--7.洗涤保养-->
+        <div class="clean" id="clean"></div>
+        <!--8.推荐产品及评论-->
+        <div class="recom clearfix">
+            <!--推荐产品-->
+            <div class="recom_product lf" id="recom_product">
+                <div>推荐产品</div>
+                <div class="con">
+                </div>
+            </div>
+            <!--评论-->
+            <div class="speak lf" id="seak">
+                <!--第一行-->
+                <div>
+                   <span>最新评论(272)</span>
+                    <input type="radio" checked ><label>全部评论</label>
+                    <input type="radio" >图片(19)
+                    <span>我要评论</span>
+                </div>
+                <!--第二行-->
+                <div class="dashed"></div>
+                <!--第3行页数-->
+                <div class="ye"></div>
+            </div>
+            <!--提问-->
+            <div class="question lf" id="question">
+                <!--第一行-->
+                <div>
+                  <span>最新提问(共209条)</span>
+                    <span>我要提问</span>
+                </div>
+                <!--第二行-->
+                <div class="has_question">
+                    <p>
+                        <span class="person">Q</span>
+                        <span>thir***：标价三百99打开页面怎么是八百多呢</span>
+                        <span class="time">2018-03-08我要回复(0)</span>
+                    </p>
+                    <P>
+                        <span class="person">A</span>
+                        <span>亲爱的客户您好，目前此款商品可以使用充值的款项购买，且同时参加买三免一活动。参加活动购买更优惠哦~感谢您的支持！</span>
+                    </P>
+                </div>
+                <div class="has_question">
+                    <p>
+                        <span class="person">Q</span>
+                        <span>thir***：标价三百99打开页面怎么是八百多呢</span>
+                        <span class="time">2018-03-08我要回复(0)</span>
+                    </p>
+                    <P>
+                        <span class="person">A</span>
+                        <span>亲爱的客户您好，目前此款商品可以使用充值的款项购买，且同时参加买三免一活动。参加活动购买更优惠哦~感谢您的支持！</span>
+                    </P>
+                </div>
+                <div class="has_question">
+                    <p>
+                        <span class="person">Q</span>
+                        <span>thir***：标价三百99打开页面怎么是八百多呢</span>
+                        <span class="time">2018-03-08我要回复(0)</span>
+                    </p>
+                    <P>
+                        <span class="person">A</span>
+                        <span>亲爱的客户您好，目前此款商品可以使用充值的款项购买，且同时参加买三免一活动。参加活动购买更优惠哦~感谢您的支持！</span>
+                    </P>
+                </div>
+                <!--第三行-->
+                <div class="ye">
+                    <ul>
+                        <li>下一页</li>
+                        <li>4</li>
+                        <li>3</li>
+                        <li>2</li>
+                        <li>1</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--加载尾部-->
+    <div id="footer"></div>
+
+    <script src="js/ajax.js"></script>
+    <script src="js/jquery-1.11.3.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="js/03_productslist.js"></script>
+</body>
+</html>

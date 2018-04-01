@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/base.css">
+ </head>
+ <body>
+	<div id="main">
+		<!-- 1.头部logo-->
+		<div class="top clearfix">
+			<a href="index.html"><img src="img/login/logo_new.jpg" alt="" class="logo lf"></a>
+			<div class="rf help">
+				<a href="#">帮助</a>
+			</div>
+		</div>
+		<!--2.主体部分  -->
+			<div class="middle">
+				<div class="left lf">
+					<img src="img/login/login120412_newlogo (3).jpg" alt="">
+				</div>
+				<div class="right rf">
+					<h2 class="lf">凡客Vancl登录</h2>
+					<span class="rf">没有账户免费<a href="register.html">注册</a></span>
+					<div class="select_login">
+						<ul>
+							<li class="li1">普通登录</li>
+							<li>快速登录</li>
+						</ul>
+					</div>
+					<div class="denglu">
+						<div class="pudeng">
+							<p>
+								<input type="text" placeholder="请输入用户名" name="uname">
+							</p>
+							<p class="hidden">用户名不能为空</p>
+							<p>
+								<input type="password" placeholder="请输入密码" name="upwd">
+							</p>
+							<p class="hidden" id="d">密码不能为空</p>
+							<p class="three">
+								<input type="text" placeholder="验证码" style="width:210px;">
+								<span>
+									<img src="data/01_code.php" alt=" " width="145px" height="45px">
+								</span>
+								<p class="hidden" id="g"></p>
+							</p>
+							<p class="forget"><a href="#">找回密码</a></p>
+
+						</div>
+						<div class="kuaideng">
+							<p>
+								<input type="text" placeholder="输入手机号" name="phone">
+								<input type="button" value="获取短信验证码">
+								<br>
+								<span class="hidden">手机号格式不正确</span>
+							</p>
+							<p>
+								<input type="text" placeholder="验证码">
+								<span>
+									<img src="data/01_code.php" alt="" width="120px" height="45px" style="margin:10px;">
+								</span>
+								<a href="">看不清?换一张</a>
+								<br>
+								<span class="hidden">手机号格式不正确</span>
+							</p>
+							<p>
+								<input type="text" placeholder="输入手机验证码">
+								<br>
+								<span class="hidden">手机号格式不正确</span>
+							</p>
+						</div>
+						
+<!-- 						<p class="forget"><a href="#">找回密码</a></p> -->
+						<input type="submit" value="登 录">
+					</div>
+					<div class="other clearfix">
+						<p>使用合作网站账号登录凡客</p>
+						<a href="#" class="weixin"></a>
+						<a href="#" class="xiaomi"></a>
+						<a href="#" class="zhifubao"></a>
+						<a href="#" class="qq"></a>
+						<a href="#" class="anquan"></a>
+						<a href="#" class="weibo"></a>
+					</div>
+					
+				</div>
+		</div>
+
+		<!--3.底部  -->
+		<div class="bottom">
+			<p>Copyright2007-2016 vancl.com All Rights Reserved 京ICP证100557号&nbsp;京公网安备11011502002400号&nbsp;出版物经营许可证新出发京批字第直110138号</p>
+			<div class="subbottom">
+				<a href="#" class="chengxin"></a>
+				<span class="cnga"></span>
+				<a href="#" class="wangjaio"></a>
+				<a href="#" class="wangzhan"></a>
+			</div>
+		</div>	
+	</div>
+
+	<script src="js/jquery-1.11.3.js"></script>
+	<script src="js/login.js"></script>
+ </body>
+</html>
